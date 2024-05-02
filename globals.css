@@ -1,0 +1,60 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Acme:400");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+@font-face {
+  font-family: "Pretendard-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5f06a5517739f30d3a8fc967/fonts/pretendard-bold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Pretendard-ExtraBold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6122f3f935181493bb5c6c35/fonts/pretendard-extrabold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/5f06a5517739f30d3a8fc967/fonts/pretendard-regular.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Pretendard-SemiBold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/6122f3f935181493bb5c6c35/fonts/pretendard-semibold.otf")
+    format("opentype");
+}
+
+@font-face {
+  font-family: "Apple SD Gothic Neo-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/60a0352d8641b998163a4e69/fonts/applesdgothicneom.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Apple SD Gothic Neo-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c50ea1ce900f8000a90a3e5/AppleSDGothicNeo-Bold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Apple SD Gothic Neo-ExtraBold";
+  src: url("https://anima-uploads.s3.amazonaws.com/5c50fb9ddef5ba0009ddade4/AppleSDGothicNeo-ExtraBold.otf")
+    format("opentype");
+}
